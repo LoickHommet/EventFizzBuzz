@@ -8,6 +8,9 @@ logger.on('nombreRecu', function(number){
     if(number % 3 == 0){
         console.log("Fizz");
     }
+    if((number % 5 == 0) & (number % 3 == 0)){
+        console.log("FizzBuzz");
+    }
     console.log("nombre Recu: ", number)
 });
 
