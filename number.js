@@ -1,3 +1,3 @@
 const logger = require('./logger');
 
-logger.FizzBuzz(1)
+logger.FizzBuzz(15)
