@@ -5,7 +5,7 @@ class Logger extends EventEmitter {
 
     FizzBuzz(number){
         console.log("Nombre envoyé")
-        this.emit("nombre :", number)
+        this.emit("nombreRecu", number)
     }
 }
 
