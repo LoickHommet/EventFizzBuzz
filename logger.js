@@ -1,7 +1,7 @@
 const Logger = require("./emitter")
 const logger = new Logger
 
-logger.FizzBuzz('nombreRecu', function(number){
+logger.on('nombreRecu', function(number){
     console.log("nombre Recu: ", number)
 });
 
